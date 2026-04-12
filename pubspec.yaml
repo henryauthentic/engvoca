@@ -1,0 +1,81 @@
+name: vocabulary_app
+description: A multi-platform vocabulary learning application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  audioplayers: ^6.0.0
+  lottie: ^3.1.2
+  flutter_animate: ^4.5.0
+  
+  # Firebase (tương thích Flutter 3.38)
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  google_sign_in: ^6.2.1
+
+
+
+  # Local Database
+  sqflite: ^2.2.8+4
+  path: ^1.8.3
+
+  # State Management
+  provider: ^6.1.1
+
+  # UI
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+
+  # Utils
+  intl: ^0.20.2
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.4
+  
+  # Text to Speech
+  flutter_tts: ^3.8.5
+
+  # HTTP
+  http: ^1.1.0
+  
+  # ✅ NEW: Charts
+  fl_chart: ^0.65.0
+  
+  # ✅ NEW: AI Integration
+  google_generative_ai: ^0.4.6
+  flutter_markdown: ^0.7.6
+  
+  # ✅ NEW: Notifications & Scheduling
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.4
+  
+  # ✅ NEW: Image Picker
+  image_picker: ^1.1.2
+  
+  # ✅ NEW: Permissions
+  permission_handler: ^11.3.1
+  
+  # ✅ NEW: Image Cropping (optional)
+  image_cropper: ^8.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/database/EnglishMaster.db
+    - assets/images/default_avatar.png
+    - assets/images/
+    - assets/audio/
+    - assets/animations/
+    - assets/lottie/
