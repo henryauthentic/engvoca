@@ -77,8 +77,8 @@ lib/
 *(Bạn có thể thay thế các link dưới đây bằng ảnh chụp màn hình dự án của mình)*
 
 ```markdown
-![Màn hình DashBoard](link_to_image)   ![Tính năng Flashcards](link_to_image)   ![Chat AI](link_to_image)
+![Màn hình DashBoard](<img width="514" height="1075" alt="image" src="https://github.com/user-attachments/assets/01fca8fc-3940-4191-8297-f4e2eec12896" />
+)   ![Tính năng Flashcards](<img width="510" height="1065" alt="image" src="https://github.com/user-attachments/assets/ad8044b1-5bb4-46b4-91a8-863b3bcd3a54" />
+)   ![Chat AI](<img width="515" height="1063" alt="image" src="https://github.com/user-attachments/assets/c1dbcca9-21c3-47d8-93f2-398b75290b98" />
+)
 ```
-
-## 📄 Bản Quyền
-Dự án được phân phối dưới giấy phép MIT License.
